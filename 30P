@@ -9,3 +9,18 @@ Explanation:
 After removing natural numbers which contains
 digit 9, first 9 numbers are 1,2,3,4,5,6,7,8,10
 and 9th number is 10.
+
+
+
+
+3.Given an array of size N, find the smallest positive integer value that cannot be represented as sum of some elements from the array.
+
+
+Input: 
+N = 6
+array[] = {1, 10, 3, 11, 6, 15}
+Output: 
+2
+Explanation:
+2 is the smallest integer value that cannot 
+be represented as sum of elements from the array.
