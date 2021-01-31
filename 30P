@@ -52,3 +52,21 @@ Output:
 Explanation: Spiral traversal of matrix: 
 {1, 2, 3, 6, 9, 8, 7, 4, 5}. Fourth element
 is 6.
+
+In Geekland there is a grid of coins of size N x N. You have to find the maximum sum of coins in any sub-grid of size K x K.
+Note: Coins of the negative denomination are also possible at Geekland.
+
+Example 1:
+
+Input: N = 5, K = 3 
+mat[[]] = {1, 1, 1, 1, 1} 
+          {2, 2, 2, 2, 2} 
+          {3, 8, 6, 7, 3} 
+          {4, 4, 4, 4, 4} 
+          {5, 5, 5, 5, 5}
+Output: 48
+Explanation: {8, 6, 7}
+             {4, 4, 4}
+             {5, 5, 5}
+has the maximum sum
+
