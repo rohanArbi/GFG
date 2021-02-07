@@ -103,3 +103,24 @@ Output: 4
 Explanation: All possible pairs are [(1,1) (1,2) 
 (2,1) (2,2)] their respective Bit differences 
 are 0 ,  2 , 2 , 0
+  
+  
+  
+  Given Preorder, Inorder and Postorder traversals of some tree of size N. The task is to check if they are all of the same tree or not.
+
+Example 1:
+
+Input:
+N = 5
+preorder[] = {1, 2, 4, 5, 3}
+inorder[] = {4, 2, 5, 1, 3}
+postorder[] = {4, 5, 2, 3, 1}
+Output: Yes
+Explanation: 
+All of the above three traversals 
+are of the same tree.
+           1
+         /   \
+        2     3
+      /   \
+     4     5
