@@ -124,3 +124,29 @@ are of the same tree.
         2     3
       /   \
      4     5
+     
+     
+     
+      { 
+        HashMap<integer,integer> h=new HashMap<>();
+        int sum=-1;
+        for(int n : arr)
+        {
+            int dig=0;
+            int num=n;
+            while(n!=0)
+            {
+                dig+=(n%10);
+                n=n/10;
+            }
+            if(h.containsKey(dig))
+            {
+                int curr=h.get(dig);
+                sum=Math.max(sum,curr+num);
+                if(num>curr)
+                  h.put(dig,num);
+            }
+            else
+                h.put(dig,num);
+        }
+        return sum;
