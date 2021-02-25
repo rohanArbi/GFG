@@ -2,7 +2,7 @@ Given a positive integer N. You have to find Nth natural number after removing a
 
 
 Input:
-N = 9
+N = 9  
 Output:
 10 
 Explanation:
